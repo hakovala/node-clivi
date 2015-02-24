@@ -52,9 +52,6 @@ function colorize(str, colors) {
 	if (!str || typeof colors !== 'object')
 		return str;
 
-	if (typeof str !== 'string')
-		throw new Error('Only strings will blend');
-
 	return formatColor(colors) + str + RESET;
 }
 module.exports = colorize;
