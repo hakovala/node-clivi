@@ -1,5 +1,7 @@
 # node-clivi
 
+Simple terminal colors.
+
 ## Install
 
 	npm install clivi
